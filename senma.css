@@ -1,0 +1,106 @@
+body {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 50px;
+    color: #DAA520;
+}
+
+#nav ul {
+    Width: 990px;
+    height: 40px;
+    margin: 30px auto;
+    padding: 0;
+    list-style: none;
+    border-top: solid 5px #DAA520;
+    border-bottom: solid 5px #DAA520;
+}
+
+#nav ul li {
+    float: left;
+    text-align: center;
+    margin: 0 23px;
+    font-size: 16px;
+    line-height: 40px;
+    font-family: fantasy;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: #800080;
+}
+
+#nav ul li a:hover {
+    display: block;
+    color: #FFFFFF;
+    background: #DC143C;
+
+}
+
+.pc {
+    width: 990px;
+}
+
+.pc2 {
+    width: 990px;
+    margin-top: 10px;
+
+}
+
+.pc3 {
+    width: 990px;
+    margin-top: 10px;
+}
+
+.pc4 {
+    margin: 20px auto;
+}
+
+.pb {
+    text-align: center;
+
+}
+
+.pb > div {
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+.pb img {
+    width: 310px;
+}
+
+.p1 {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+#p2 {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 30px;
+    font-size: 20px;
+    color: black;
+}
+
+#p3 {
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 80px;
+    font-size: 30px;
+    color: black;
+}
+
+#qwe {
+    position: relative;
+    margin-left: -850px;
+    margin-top: -170px;
+    font-size: 20px;
+    color: black;
+}
