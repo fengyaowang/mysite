@@ -1,26 +1,39 @@
-body {
+body{
     text-align: center;
+    margin:0;
+}
+.dh{
+    width: 990px;
+}
+.banner{
+    width: 990px;
+    margin-left: 5px;
 }
 
+/*
 p {
     text-align: center;
     font-size: 50px;
     color: #DAA520;
 }
+*/
 
 #nav ul {
     Width: 990px;
     height: 40px;
-    margin: 30px auto;
+    margin: 0px auto;
     padding: 0;
     list-style: none;
+    background: #363636;
+/*
     border-top: solid 5px #DAA520;
     border-bottom: solid 5px #DAA520;
+*/
 }
 
 #nav ul li {
     float: left;
-    text-align: center;
+/*    text-align: center;*/
     margin: 0 23px;
     font-size: 16px;
     line-height: 40px;
@@ -29,16 +42,17 @@ p {
 
 #nav ul li a {
     text-decoration: none;
-    color: #800080;
+    color: #FFF;
 }
 
 #nav ul li a:hover {
     display: block;
     color: #FFFFFF;
-    background: #DC143C;
+    background: #939191;
 
 }
 
+/*
 .pc {
     width: 990px;
 }
@@ -53,6 +67,7 @@ p {
     width: 990px;
     margin-top: 10px;
 }
+*/
 
 .pc4 {
     margin: 20px auto;
@@ -73,6 +88,7 @@ p {
     width: 310px;
 }
 
+/*
 .p1 {
     position: absolute;
     margin-left: 500px;
@@ -104,3 +120,81 @@ p {
     font-size: 20px;
     color: black;
 }
+*/
+.jxnz{
+    font-size: 24px;
+    margin-top: 50px;
+}
+.col-md-4{
+    display: inline-block;
+    height: 580px;
+    background: white;
+    width: 300px;
+}
+.col-md-4+div{
+    margin-left: 20px;
+}
+.col3{
+    width: 300px;
+}
+.elyq{
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #585858;
+}
+.btn-group{
+    margin-top: 20px;
+}
+.ljgd{
+    font-size:6px;
+}
+.row{
+/*    text-align: center;*/
+}
+.col-md-3{
+    display: inline-block;
+    height: 225px;
+/*    background: green;*/
+    width: 200px;
+}
+.col-md-2{
+    display: inline-block;
+    height: 225px;
+    background: green;
+    width: 150px;
+}
+.col-md-2+div{
+    margin-left: 20px;
+}
+.col2{
+    width: 150px;
+}
+.shop{
+    margin-left: -170px;
+    font-size: 25px;
+}
+.new{
+    font-size: 25px;
+    margin-left: -50px;
+}
+.xpss{
+    font-size: 30px;
+    margin-left: -120px;
+}
+.col-md-5{
+/*    background: red;*/
+    display: inline-block;
+}
+.chun{
+/*    background: red;*/
+    display: inline-block;
+    margin-left: -180px;
+}
+.mao{
+/*    background: red;*/
+    display: inline-block;
+    margin-left: -50px;
+}
+
+

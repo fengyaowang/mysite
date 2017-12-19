@@ -1,106 +1,60 @@
-body {
-    text-align: center;
-}
-
-p {
-    text-align: center;
-    font-size: 50px;
-    color: #DAA520;
-}
-
-#nav ul {
-    Width: 990px;
-    height: 40px;
-    margin: 30px auto;
-    padding: 0;
-    list-style: none;
-    border-top: solid 5px #DAA520;
-    border-bottom: solid 5px #DAA520;
-}
-
-#nav ul li {
-    float: left;
-    text-align: center;
-    margin: 0 23px;
-    font-size: 16px;
-    line-height: 40px;
-    font-family: fantasy;
-}
-
-#nav ul li a {
+a{
     text-decoration: none;
-    color: #800080;
-}
-
-#nav ul li a:hover {
-    display: block;
-    color: #FFFFFF;
-    background: #DC143C;
-
-}
-
-.pc {
-    width: 990px;
-}
-
-.pc2 {
-    width: 990px;
-    margin-top: 10px;
-
-}
-
-.pc3 {
-    width: 990px;
-    margin-top: 10px;
-}
-
-.pc4 {
-    margin: 20px auto;
-}
-
-.pb {
-    text-align: center;
-
-}
-
-.pb > div {
-    display: inline-block;
-    margin: 0 10px;
-
-}
-
-.pb img {
-    width: 310px;
-}
-
-.p1 {
-    position: absolute;
-    margin-left: 500px;
-    margin-top: 30px;
-    font-size: 20px;
-    color: black;
-}
-
-#p2 {
-    position: absolute;
-    margin-left: 500px;
-    margin-top: 30px;
-    font-size: 20px;
-    color: black;
-}
-
-#p3 {
-    position: absolute;
-    margin-left: 500px;
-    margin-top: 80px;
     font-size: 30px;
-    color: black;
 }
 
-#qwe {
-    position: relative;
-    margin-left: -850px;
-    margin-top: -170px;
-    font-size: 20px;
+.menutext{
+    width: 200px;
+    height: 80px;
+    background: #ccc;
+    line-height: 80px;
+    display: inline-block;
+}
+.menutext:hover{
+    color: #FFF;
+    animation: move 1s infinite;
+}
+.menutext:active{
     color: black;
+}
+.menu{
+    text-align: center;
+}
+@keyframes move{
+    0{}
+    25%{
+        background: yellow;
+        transform: scale(1.5);
+    }
+    50%{
+        background: red;
+    }
+    75%{
+        background: green;
+    }
+    100%{}
+}
+.a{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background: red;
+}
+.b{
+    display:inline-block;
+    width: 100px;
+    height: 100px;
+    background: black;
+    margin-top: 50%;
+    transform: translate(0,-50%);
+}
+.xx{
+    color: aliceblue;
+    margin: 0 auto;
+/*    background: blue;*/
+    margin-top: 50%;
+    transform: translate(0,-50%);
+    font-size: 30px;
+    line-height: 100px;
+
 }
