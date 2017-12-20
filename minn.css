@@ -1,0 +1,175 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+.dh {
+    width: 990px;
+}
+
+.banner {
+    width: 990px;
+    margin-left: 5px;
+}
+.dhl{
+    text-align: center;
+    width: 90px;
+    line-height: 40px;
+}
+#nav ul {
+    text-align: center;
+    Width: 990px;
+    height: 40px;
+    margin: 0px auto;
+    padding: 0;
+    list-style: none;
+    background: #363636;
+}
+
+#nav ul li {
+    float: left;
+    font-size: 16px;
+    line-height: 40px;
+    font-family: fantasy;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+#nav ul li a:hover {
+    display: block;
+    color: #FFFFFF;
+    background: #939191;
+
+}
+.pc4 {
+    margin: 20px auto;
+}
+
+.pb {
+    text-align: center;
+
+}
+
+.pb > div {
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+.pb img {
+    width: 310px;
+}
+
+.jxnz {
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.col4 {
+    display: inline-block;
+    height: 580px;
+    background: black;
+    width: 300px;
+}
+
+.col4 + div {
+    margin-left: 20px;
+}
+
+.col3 {
+    width: 300px;
+}
+
+.elyq {
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 500;
+    color: #585858;
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+
+.ljgd {
+    font-size: 6px;
+}
+
+.row {
+    /*    text-align: center;*/
+}
+
+.col-md-3 {
+    display: inline-block;
+    height: 225px;
+    /*    background: green;*/
+    width: 200px;
+}
+
+.col-md-2 {
+    display: inline-block;
+    height: 225px;
+    background: green;
+    width: 150px;
+}
+
+.col-md-2 + div {
+    margin-left: 20px;
+}
+
+.col2 {
+    width: 150px;
+}
+
+.shop {
+    margin-left: -170px;
+    font-size: 25px;
+}
+
+.new {
+    font-size: 25px;
+    margin-left: -50px;
+}
+
+.xpss {
+    font-size: 30px;
+    margin-left: -120px;
+}
+
+.col-md-5 {
+    /*    background: red;*/
+    display: inline-block;
+}
+
+.chun {
+    /*    background: red;*/
+    display: inline-block;
+    margin-left: -180px;
+}
+
+.mao {
+    /*    background: red;*/
+    display: inline-block;
+    margin-left: -50px;
+}
+
+
+
+
+
+#inp {
+    height: 20px;
+    width: 200px;
+    transform: translateY(50%);
+}
+
+#go {
+    height: 20px;
+    font-size: 10px;
+/*    transform: translateY(-5%);*/
+    transform: translateX(10%);
+    line-height: 5px
+}
