@@ -1,0 +1,64 @@
+
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>senma</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body style="padding: 16px;">
+<!--
+    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+    <i class="fa fa-address-book" aria-hidden="true"></i>
+    <img id="chanChe" src="images/chanChe.png">
+    <img src="images/jiaoBanJi.png">
+-->
+    <img id="qingDaoChe" style="margin-left: 0px" src="images/qingDaoChe.png">
+    <h1 id="tmr" style="position: absolute">0</h1>
+    </body>
+    <script>
+//           function toc(){
+//               $("#d").scroll();
+//               alert("121");
+//           }
+//        $("#chanChe").hover(function(){
+//            $("#chanChe").attr("src","images/jiaoBanJi.png")
+//        },function(){
+//            $("#chanChe").attr("src","images/chanChe.png")
+//        });
+//
+//        $("#chanChe").mousedown(function(){
+//            $("#chanChe").attr("src","images/qingDaoChe.png")
+//        });
+//        $("#chanChe").mouseup(function(){
+//            $("#chanChe").attr("src","images/chanChe.png")
+//        });
+
+//        var user={
+//            id:"123456",
+//            age:"21",
+//            height:"179",
+//            weight:"120",
+//            gf:{
+//                age:"21",
+//                height:"179",
+//                weight:"179",
+//            }
+//        }
+//        $("#nianling").html(user.age);
+//
+        setInterval(function(){
+            var weizhix=$("qingDaoChe").css("margin-left");
+            weizhix = weizhix + 1;
+            $("#qingDaoChe").css({"margin-left":weizhix + "px"});
+        },100)
+
+    </script>
+</html>

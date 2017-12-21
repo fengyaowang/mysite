@@ -19,10 +19,12 @@ p {
     color: #DAA520;
 }
 */
-.dhl{
+
+.dhl {
     width: 90px;
     line-height: 40px;
 }
+
 #nav ul {
     Width: 990px;
     height: 40px;
@@ -39,7 +41,7 @@ p {
 #nav ul li {
     float: left;
     /*    text-align: center;*/
-/*    margin: 0 23px;*/
+    /*    margin: 0 23px;*/
     font-size: 16px;
     line-height: 40px;
     font-family: fantasy;
@@ -177,8 +179,10 @@ p {
 .col-md-2 {
     display: inline-block;
     height: 225px;
-    background: green;
+    /*    background: green;*/
     width: 150px;
+    /*    margin-top: 10%;*/
+    font-size: 10px;
 }
 
 .col-md-2 + div {
@@ -237,7 +241,7 @@ p {
 }
 
 #col12 {
-/*    line-height: 40px;*/
+    /*    line-height: 40px;*/
     transform: translateY(-2%)
 }
 
@@ -276,7 +280,7 @@ p {
     width: 30px;
     height: 50px;
     background: white;
-    border-left:1px solid black;
+    border-left: 1px solid black;
     margin-left: 35px;
     transform: translateY(30%);
 }
@@ -292,4 +296,100 @@ p {
 
 #zxm {
     height: 200px;
+}
+
+.qudiao {
+    list-style: none;
+    margin-left: -50%;
+}
+
+.cpfs {
+    margin-left: -9%;
+    margin-top: 20%
+}
+
+.bzxx {
+    margin-left: -25%;
+    margin-top: 20%
+}
+
+.gya {
+    margin-left: -25%;
+    margin-top: 20%
+}
+
+.gywm {
+    margin-left: -25%;
+    margin-top: 20%
+}
+
+#yxj {
+    font-size: 10px;
+    height: 100px;
+}
+
+.tmd {
+    opacity: 0;
+}
+
+.zdq {
+    text-align: left;
+    transform: translateY(-100%);
+}
+
+.clzx {
+    margin-left: -70%;
+    transform: translateY(-350%)
+}
+
+.txt {
+    margin-left: -27%;
+}
+
+
+
+.icon {
+    width: 30px;
+    margin-top: 50px;
+}
+
+.icon + img {
+    margin-left: 100px;
+}
+
+.mmmm {
+    font-size: 10px;
+}
+
+.mmm {
+    font-size: 10px;
+    margin-top: 50px;
+}
+
+.js {
+    width: 50px;
+    height: 10x;
+    border: 1px solid black;
+    margin: 0 auto;
+    font-size: 10px;
+    line-height: 10px;
+    text-align: left;
+}
+
+
+
+.a11 {
+    width: 20px;
+    height: 2px;
+    background: blue;
+    transform: translateY(-300%);
+    margin-left: 30px;
+}
+
+.a12 {
+    width: 15px;
+    height: 2px;
+    background: blue;
+    transform: translateY(-200%);
+    margin-left: 35px;
 }
