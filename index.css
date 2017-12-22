@@ -11,6 +11,21 @@ body {
     width: 990px;
     margin-left: 5px;
 }
+.myDiv {
+            width:990px;
+            height: 500px;
+            margin: 20px auto;
+            -webkit-animation-name: 'loop';
+            -webkit-animation-duration: 10s;
+            -webkit-animation-iteration-count: infinite;
+        }
+        @-webkit-keyframes "loop"{
+            0% { background: url("images/banner.jpg") no-repeat;}
+            25% { background: url("images/banner2.jpg") no-repeat;}
+            50% { background: url("images/banner3.jpg") no-repeat;}
+            75% { background: url("images/banner4.jpg") no-repeat;}
+            100% {background:  url("images/banner3.jpg") no-repeat;}
+        }
 
 /*
 p {
