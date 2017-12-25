@@ -1,0 +1,304 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+.logo {
+    margin-top: 20px;
+}
+
+.logocolor {
+    color: #51453f;
+    font-size: 40px;
+    font-family: serif;
+    transform: scale(2, 1);
+}
+
+.logo1934 {
+    color: #51453f;
+    font-size: 10px;
+    font-family: inherit;
+}
+
+.dhl {
+    width: 133px;
+    line-height: 40px;
+}
+
+#nav ul {
+    Width: 800px;
+    height: 40px;
+    margin: 0px auto;
+    padding: 0;
+    list-style: none;
+    margin-top: 50px;
+}
+
+#nav ul li {
+    float: left;
+    font-size: 16px;
+    line-height: 40px;
+    font-family: fantasy;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    color: #51453f;
+}
+
+a,
+a:link,
+a:visited,
+a:focus {
+    text-decoration: none;
+    color: #51453f;
+}
+
+#center-to-head {
+    position: relative;
+}
+
+#center-to-head:after {
+    content: '';
+    display: block;
+    /*开始时候下划线的宽度为100%*/
+    width: 70%;
+    height: 3px;
+    position: absolute;
+    left: 20px;
+    bottom: 0px;
+    background: #51453f;
+    transition: all 0.3s ease-in-out;
+    /*通过transform的缩放scale来让初始时x轴为0*/
+    transform: scale3d(0, 1, 1);
+    /*将坐标原点移到元素的中间，以原点为中心进行缩放*/
+    transform-origin: 50% 0;
+}
+
+#center-to-head:hover::after {
+    /*鼠标经过时还原到正常比例*/
+    transform: scale3d(1, 1, 1);
+}
+
+
+.sdlr {
+    width: 100%;
+    margin-top: 2%
+}
+
+.sdqd {
+    /*    position: relative;*/
+    margin-top: -25%;
+    color: white;
+}
+
+.gkdp {
+    width: 85px;
+    height: 30px;
+    line-height: 30px;
+    /*    background: white;*/
+    display: inline-block;
+    margin-top: 2%;
+    color: white;
+
+}
+
+.ban {
+    text-align: center;
+}
+
+.zjq {
+    margin-top: 26%
+}
+
+.zjqa {
+    width: 100%;
+}
+
+.wuyu {
+    margin-top: 10%;
+    font-size: 20px;
+    color: #51453f;
+}
+
+.zaiyige {
+    font-size: 15px;
+    color: #51453f;
+    margin-top: 10%;
+    width: 80%;
+    display: inline-block;
+}
+
+.ljgd {
+    width: 170px;
+    height: 30px;
+    /*    background: white;*/
+    display: inline-block;
+    line-height: 30px;
+    border-left: 2px solid #51453f;
+    border-right: 2px solid #51453f;
+    margin-top: 2%;
+    color: #51453f;
+}
+
+.tp2 {
+    margin-top: 10%;
+    width: 100%;
+}
+
+.wuyu2 {
+    margin-top: 10%;
+    font-size: 20px;
+    color: #51453f;
+}
+
+.zaiyige2 {
+    font-size: 15px;
+    color: #51453f;
+    margin-top: 10%;
+    width: 80%;
+    display: inline-block;
+}
+
+.ljgd2 {
+    width: 170px;
+    height: 30px;
+    /*    background: white;*/
+    display: inline-block;
+    line-height: 30px;
+    border-left: 2px solid #51453f;
+    border-right: 2px solid #51453f;
+    margin-top: 5%;
+    color: #51453f;
+}
+
+.ddd {
+    /*    height: 2%;*/
+    background: #AAA;
+}
+
+.wuyu3 {
+    margin-top: 10%;
+    font-size: 20px;
+    color: #51453f
+}
+
+.zaiyige3 {
+    font-size: 15px;
+    color: #51453f;
+    margin-top: 10%;
+    width: 80%;
+    display: inline-block;
+}
+
+.ljgd3 {
+    width: 170px;
+    height: 30px;
+    /*    background: white;*/
+    display: inline-block;
+    line-height: 30px;
+    border-left: 2px solid #51453f;
+    border-right: 2px solid #51453f;
+    margin-top: 5%;
+    color: #51453f;
+}
+
+.wuyu4 {
+    margin-top: 10%;
+    font-size: 20px;
+    color: #51453f
+}
+
+.ljgd4 {
+    width: 170px;
+    height: 30px;
+    /*    background: white;*/
+    display: inline-block;
+    line-height: 30px;
+    border-left: 2px solid #51453f;
+    border-right: 2px solid #51453f;
+    margin-top: 5%;
+    color: #51453f;
+}
+
+.heng {
+    margin-top: 5%;
+    height: 250px;
+}
+
+/*
+.henga +img{
+    margin-left: 1.1%;
+}
+*/
+
+.hengb {
+    width: 12.9%;
+    height: 250px;
+    ;
+    background: black;
+    opacity: 0;
+    /*    margin-left: 0.2%;*/
+    display: inline-block;
+}
+
+.hengb + div {
+    margin-left: 1.1%;
+    padding: 0;
+}
+
+.henga {
+    width: 100%;
+}
+
+.zxc {
+    width: 12.9%;
+    height: 250px;
+    display: inline-block;
+}
+
+.zxc + div {
+    margin-left: 1.1%;
+}
+
+
+
+.hengheng {
+    transform: translateY(-98%);
+}
+
+.view {
+    display: inline-block;
+}
+
+.heng2 {
+    margin-top: 2%;
+    height: 250px;
+}
+
+.dingyue {
+    font-size: 22px;
+    color: #51453f;
+    font-family: cursive;
+    margin-top: 2%;
+}
+
+.icon {
+    width: 30px;
+    margin-top: 50px;
+}
+
+.icon + img {
+    margin-left: 100px;
+}
+
+.mmmm {
+    font-size: 10px;
+}
+
+.mmm {
+    font-size: 10px;
+    margin-top: 50px;
+}

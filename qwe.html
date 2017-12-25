@@ -5,60 +5,71 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>senma</title>
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="qwe.css">
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
     <link href="https://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <link href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" rel="stylesheet">
     <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
 </head>
 
 <body style="padding: 16px;">
+    <div id="daohang" class="row">
+        <div class="col-xs-1"></div>
+        <div class="col-xs-10">
+            <div class="row">
+                <div id="logobox" class="col-xs-2">
+                    <img src="images/1.jpg" style="height: 48px;">
+                </div>
+                <div id="menubox" class="col-xs-10">
+                    <div class="btn btn-primary menubtn"><div style="margin-top: 8px;">首页</div></div>
+                    <div class="btn btn-primary menubtn">分类</div>
+                    <div class="btn btn-primary menubtn">关于</div>
+                    <div class="denglu">登录</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xs-1"></div>
+    </div>
 <!--
-    <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-    <i class="fa fa-address-book" aria-hidden="true"></i>
-    <img id="chanChe" src="images/chanChe.png">
-    <img src="images/jiaoBanJi.png">
+    <div class="row aa">
+        <img src="images/1.jpg" style="width: 100%">
+    </div>
 -->
-    <img id="qingDaoChe" style="margin-left: 0px" src="images/qingDaoChe.png">
-    <h1 id="tmr" style="position: absolute">0</h1>
+<!--
+    <div>
+    <div id="btna" class="btn btn-primary">按钮A</div>
+    <div id="btnb" class="btn btn-primary">按钮B</div>
+    <div id="btnc" class="btn btn-primary">按钮C</div>
+    <div id="btnd" class="btn btn-primary">按钮D</div>
+    <div id="btne" class="btn btn-primary">按钮E</div>
+        </div>
+    <div id="a" style="height: 300px;width: 100%;background: #CCC">AA</div>
+    <div id="b"style="height: 300px;width: 100%;background: #AAA">BB</div>
+    <div id="c" style="height: 300px;width: 100%;background: #BBB">CC</div>
+    <div id="d" style="height: 500px;width: 100%;background: #DDD">DD</div>
+    <div id="e" style="height: 800px;width: 100%;background: #EEE">EE</div>
+-->
+	<div id="offImg3"style="width: 100px;height: 100px;background: black">123</div>
     </body>
     <script>
-//           function toc(){
-//               $("#d").scroll();
-//               alert("121");
-//           }
-//        $("#chanChe").hover(function(){
-//            $("#chanChe").attr("src","images/jiaoBanJi.png")
-//        },function(){
-//            $("#chanChe").attr("src","images/chanChe.png")
-//        });
-//
-//        $("#chanChe").mousedown(function(){
-//            $("#chanChe").attr("src","images/qingDaoChe.png")
-//        });
-//        $("#chanChe").mouseup(function(){
-//            $("#chanChe").attr("src","images/chanChe.png")
-//        });
+		function huaru3() {
+        $("#offImg3").css({
+            "box-shadow": "0 1px 10px #848484",
+            opacity: 1,
+        });
+    };
 
-//        var user={
-//            id:"123456",
-//            age:"21",
-//            height:"179",
-//            weight:"120",
-//            gf:{
-//                age:"21",
-//                height:"179",
-//                weight:"179",
-//            }
-//        }
-//        $("#nianling").html(user.age);
-//
-        setInterval(function(){
-            var weizhix=$("qingDaoChe").css("margin-left");
-            weizhix = weizhix + 1;
-            $("#qingDaoChe").css({"margin-left":weizhix + "px"});
-        },100)
+    function huachu3() {
+        $("#offImg3").css({
+            "box-shadow": "none",
+            opacity: 0.8
+        });
+
+    };
+    $("#offImg3").hover(huaru3, huachu3);
+
 
     </script>
 </html>

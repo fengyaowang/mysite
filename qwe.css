@@ -1,0 +1,35 @@
+
+#logobox {
+    background: #AAA;
+/*    padding: 0;*/
+}
+
+#menubox {
+    background: #EEE;
+    height: 48px;
+    text-align: right;
+}
+
+#daohang {
+    background: white;
+    height: 48px;
+}
+
+.menubtn {
+    width: 100px;
+    border-radius: 0;
+    height: 48px;
+}
+
+.denglu {
+    display: inline-block;
+    text-align: center;
+    width: 100px;
+    cursor: pointer;
+    font-weight: 800;
+    height: 48px;
+}
+
+.aa {
+    height: 300px;
+}
